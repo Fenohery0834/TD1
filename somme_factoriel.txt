@@ -1,0 +1,4 @@
+Algorithme somme_factoriel
+Début
+	
+Fin

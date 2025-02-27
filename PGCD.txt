@@ -1,0 +1,16 @@
+Algorithme PGCD
+
+variables a,b,reste: entier;
+
+Début
+	   Ecrire("Entrer la valeur de a");
+	   Lire(a);
+	   Ecrire("Entrer la valeur de b");
+	   Lire(b);
+	   tantque (b!=0) faire
+	   	       reste=a mod b;
+	   	       a=b;
+	   	       b=reste;
+	   fintantque
+	   Ecrire("Le PGCD est: ", a);
+Fin

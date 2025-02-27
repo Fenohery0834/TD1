@@ -1,0 +1,4 @@
+Algorithme nombre_premier
+Début
+	
+Fin

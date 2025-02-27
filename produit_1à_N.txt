@@ -1,0 +1,13 @@
+Algorithme produit_1à_N
+
+variables N,i,Produit:entier;
+
+Début
+	   Ecrire("Entrer un entier N: ");
+	   Lire(N);
+	   Produit=1;
+	   pour i=1 à N faire
+	   	       produit=produit*i;
+	   finpour
+	   Ecrire("Le produit de 1 à",N,"est",produit);
+Fin

@@ -1,0 +1,13 @@
+Algorithme somme
+
+variables N,i,s:entier;
+
+Début
+	     Ecrire("Entrer un entoer N: ");
+	     Lire(N);
+	     s=0;
+	     pour i=1 à N faire
+	     s=s+(1/i);
+	     finpour
+	     Ecrire("La somme est: ", s);
+Fin

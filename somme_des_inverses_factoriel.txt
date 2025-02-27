@@ -1,0 +1,4 @@
+Algorithme somme_des_inverses_factoriel
+Début
+	
+Fin

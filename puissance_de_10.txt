@@ -1,0 +1,13 @@
+Algorithme puissance_de_10
+
+variables N,i,s:entier;
+
+Début
+	   Ecrire("Entrer un entier N: ");
+	   Lire(N);
+	   s=0;
+	   pour i=0 à N faire
+	   	       s=s+(10^i);
+	   finpour
+	   Ecrire("La somme est: ", s);
+Fin

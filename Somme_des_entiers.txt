@@ -1,0 +1,10 @@
+Algorithme Somme_des_entiers
+
+variables N,somme:entier;
+
+Début
+	   Ecrire("Entrer un entier N:");
+	   Lire(N);
+	   somme=(N*(N+1))/2
+	   Ecrire("La somme est: ",somme);
+Fin
